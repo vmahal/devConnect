@@ -21,43 +21,40 @@ const Dashboard = ({
   return loading && profile === null ? (
     <Spinner />
   ) : (
-    <Fragment>
-      <div class='profile-top bg-primary p-2' class='box'>
-        <div className='my-1'>
-          {' '}
-          <img class='round-img' class='imgb' src={user.avatar} alt='' />
-        </div>
-        <div>
-          {' '}
-          <p className='lead' style={{ color: 'white' }}>
-            <b> Welcome, {user && user.name}</b>
-          </p>
-        </div>
-      </div>
+      <Fragment>
+        <div class='profile-top bg-primary p-2'>
 
-      {profile !== null ? (
-        <Fragment>
-          <DashboardActions />
-          <Experience experience={profile.experience}></Experience>
-          <Education education={profile.education}></Education>
-
-          <div className='my-2'>
-            <button className='btn btn-danger' onClick={() => deleteAccount()}>
-              <i className='fas fa-user-minus'></i>
-              Delete My Account
-            </button>
+          <div>
+            {' '}
+            <p className='lead' style={{ color: 'white' }}>
+              <i className="fa fa-user" />  <b> Welcome, {user && user.name}</b>
+            </p>
           </div>
-        </Fragment>
-      ) : (
-        <Fragment>
-          <p>You have not yet setup a profile , Please add some info</p>
-          <Link to='/create-profile' className='btn btn-primary my-1'>
-            Create profile
+        </div>
+
+        {profile !== null ? (
+          <Fragment>
+            <DashboardActions />
+            <Experience experience={profile.experience}></Experience>
+            <Education education={profile.education}></Education>
+
+            <div className='my-2'>
+              <button className='btn btn-danger' onClick={() => deleteAccount()}>
+                <i className='fas fa-user-minus'></i>
+                Delete My Account
+            </button>
+            </div>
+          </Fragment>
+        ) : (
+            <Fragment>
+              <p>You have not yet setup a profile , Please add some info</p>
+              <Link to='/create-profile' className='btn btn-primary my-1'>
+                Create profile
           </Link>
-        </Fragment>
-      )}
-    </Fragment>
-  );
+            </Fragment>
+          )}
+      </Fragment>
+    );
 };
 
 Dashboard.propTypes = {
