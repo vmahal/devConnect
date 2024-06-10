@@ -1,24 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a09716a9.chunk.css",
-    "main.js": "/static/js/main.fe8076b4.chunk.js",
-    "main.js.map": "/static/js/main.fe8076b4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
-    "static/js/2.11b12b86.chunk.js": "/static/js/2.11b12b86.chunk.js",
-    "static/js/2.11b12b86.chunk.js.map": "/static/js/2.11b12b86.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ebfe89bbc0e06c6f326986112e48bbd6.js": "/precache-manifest.ebfe89bbc0e06c6f326986112e48bbd6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.a09716a9.chunk.css.map": "/static/css/main.a09716a9.chunk.css.map",
-    "static/js/2.11b12b86.chunk.js.LICENSE.txt": "/static/js/2.11b12b86.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/showcase.6f8be21d.png",
-    "static/media/spinner.gif": "/static/media/spinner.58e4a4e4.gif"
+    "main.css": "/devConnect/static/css/main.8da5cdab.css",
+    "main.js": "/devConnect/static/js/main.fb4ec6b6.js",
+    "static/media/showcase.png": "/devConnect/static/media/showcase.3165e5643c56a7694ecc.png",
+    "static/media/spinner.gif": "/devConnect/static/media/spinner.22c60bad03cd39106e8f.gif",
+    "index.html": "/devConnect/index.html",
+    "main.8da5cdab.css.map": "/devConnect/static/css/main.8da5cdab.css.map",
+    "main.fb4ec6b6.js.map": "/devConnect/static/js/main.fb4ec6b6.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.09b85ec0.js",
-    "static/js/2.11b12b86.chunk.js",
-    "static/css/main.a09716a9.chunk.css",
-    "static/js/main.fe8076b4.chunk.js"
+    "static/css/main.8da5cdab.css",
+    "static/js/main.fb4ec6b6.js"
   ]
 }
