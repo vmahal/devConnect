@@ -1,5 +1,5 @@
 {
-  "mongoURI": "mongodb+srv://admin:admin@devconnect-u8yz6.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://ecom:ecom@ecommerce.dsvhv6u.mongodb.net/<dbname>?retryWrites=true&w=majority",
   "jwtSecret": "my secret",
   "githubClientID": "41c82a1248d8ceeb21ae",
   "githubSecret": "2d07fc06c1b443cf997ee658af68a665c5021096"
